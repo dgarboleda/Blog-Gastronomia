@@ -1,0 +1,68 @@
+.demo {
+    border: 0px solid black;
+}
+
+body {
+    background-image: url('/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cabecera {
+    color: #ffffff;
+}
+
+.cabecera h1 {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.aside {
+    background: rgb(41, 41, 41);
+    padding: 3%;
+}
+
+.subtitulo {
+    color: #ffffff;
+    margin: 5% 0;
+}
+
+.search {
+    border-radius: 20px;
+    margin: 1%;
+    max-width: 90%;
+    padding-left: 20px;
+}
+
+.entry {
+    background-color: rgba(248, 205, 229, 0.856);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.fecha {
+    color: #cc0c0c;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.image-entry {
+    width:80%;
+}
+
+.comentario {
+    border: 1px solid #363636;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+a {
+    border-bottom: 1px solid #ffffff;
+    background: rgb(140, 0, 168);
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    background: rgb(163, 3, 57);
+    color: #ffffff;
+}
